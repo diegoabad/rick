@@ -1,0 +1,22 @@
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 200px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(235, 233, 237, 0.912) 0px 0px 15px;
+}
+.image{
+    width: 200px;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+}
+.divImage{
+    width: 200px;
+}
+.info{
+    padding: 10px;
+    text-align: center;
+}
