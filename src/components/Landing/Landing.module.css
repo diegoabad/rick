@@ -1,0 +1,41 @@
+.background {
+	background-image: url('/src/images/fondo.jpg');
+	width: 100vw;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-items: center;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 140px;
+	height: 140px;
+	background-image: url('/src/images/portal.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(235, 222, 222);
+	font-weight: 900;
+	margin-bottom: 200px;
+	opacity: 1;
+	border-radius: 50%;
+	box-shadow: 0 0 15px rgb(168, 1, 252);
+}
+
+.btn:hover {
+	color: rgb(26, 23, 26);
+	transform: scale(2.5) rotate(720deg);
+	transition: 1.5s;
+	box-shadow: 0 0 15px rgb(126, 1, 252);
+	/*transform: rotate(720deg);*/
+}
